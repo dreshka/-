@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(
+      287deg,
+      #450e4b 0%,
+      #3c0c41 25%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.header .menu {
+  display: flex;
+  gap: 30px;
+}
+
+.header .menu .link{
+  font-size: 16px;
+  color: #fff;
+}
+
+
+.main {
+  background: linear-gradient(
+      287deg,
+      #450e4b 0%,
+      #3c0c41 25%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+
+  /* background: linear-gradient(90deg, #ff4d00 30%, #ff6600 50%, #ffa500 70%); */
+}
+
+.main .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .left {
+}
+
+.main .left .title {
+  font-size: 80px;
+  color: #ffffff;
+  width: 677px;
+}
+
+.main .left .text {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px 0 25px;
+}
+
+.main .left .btn{
+  padding: 15px 40px;
+  background-color: #FC0A7E;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.tablet{
+  background-color: #1b1b1b;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.tablet .sub{
+  font-size: 12px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tablet .title{
+  font-size: 28px;
+  color: #ffffff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px 0 55px;
+}
+
+.services{
+  /* color: #1b1b1b; */
+  padding: 80px 0 160px;
+}
+
+.services .card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 840px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.services .card .left{
+  width: 306px;
+}
+
+.services .left .sub{
+  font-size: 20px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.services .left .title{
+  font-size: 38px;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+
+.services .left .desc{
+  font-size: 16px;
+  color: #6B6B6B;
+  line-height: 30px;
+}
+
+.deliver .container{
+display: flex;
+align-items: center;
+justify-content: space-between;  
+}
+
+.deliver .card{
+  text-align: center;
+}
+
+.deliver .card h4{
+font-size: 18px;
+padding: 40px 0 20px;
+}
+
+.deliver .card p{
+font-size: 16px;
+color: #6B6B6B;
+}
+
+.numbers{
+  padding: 150px 0;
+}
+
+.numbers .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.numbers .item{
+  text-align: center;
+}
+
+.numbers .item h1{
+  font-size: 90px;
+  color: #333333;
+}
+
+.numbers .item p{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.foods{
+  padding-top: 150px;
+}
+
+.foods .container{
+  width: 1100px;
+}
+
+.foods .card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.foods .card .left{
+  width: 330px;
+}
+
+.foods .card .left .sub{
+  font-size: 12px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+}
+
+.foods .card .left .title{
+  font-size: 38px;
+  padding: 25px 0;
+}
+
+.foods .card .left .sub{
+  font-size: 16px;
+  color: #6B6B6B;
+}
